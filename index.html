@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="cover">
+  <div class="container">
+  <section class="header">
+  <h1 id="title">Meta Clinic Patient Survey Form</h1>
+  <p id="description">Welcome to Meta Clinic  Patient Survey form. Please answer the following questions for a general consultation.</p>
+</section>
+
+<section class="main">
+  <form id="survey-form">
+    <fieldset>
+      <legend>Patient information</legend>
+
+      <label for="name" id="name-label">Enter full names:
+      <input type="text" id="name" placeholder="enter your name" value="John Doe"  required/>
+    </label>
+
+     <label for="email" id="email-label">Enter email address:
+      <input type="email" id="email" placeholder="enter your email" value="jenna@gmail.com"  required/>
+    </label>
+
+     <label for="number" id="number-label">Enter age:
+      <input type="number" id="number" max="120" min="1" placeholder="enter age" value="1" />
+    </label>
+
+    <label>What is your gender?<br>
+      <input type="radio" name="gender" value="male" checked /> Male
+      <input type="radio" name="gender" value="female" /> Female
+    </label>
+    </fieldset>
+
+<fieldset class="diagnostic">
+  <legend>General diagnostic questions</legend>
+
+    <label>What type of doctor would you like to see?
+    <select id="dropdown">
+      <option>General practitioner</option>
+      <option>Specialist for humans</option>
+      <option>Vetinary doctor</option>
+    </select>
+    </label>
+
+    <label>Do you have the following symptoms? 
+      <label>
+        <input type="checkbox" value="Headache"> Headache
+      </label>
+      <label for="">
+        <input type="checkbox" value="Nausea"> Nausea
+      </label>
+      <label for="">
+        <input type="checkbox" value=" Fever"> Fever
+      </label>
+     <label for="">
+      <input type="checkbox" value="Joint pain"> Joint pain
+     </label>
+      <label for="">
+        <input type="checkbox" value="abdominal pain"> abdominal pain
+      </label>
+      <label for="">
+        <input type="checkbox" value="loss of appetite"> loss of appetite
+      </label>
+      
+    </label>
+    </fieldset>
+
+ <fieldset>
+   <legend>Patient opinion</legend>
+   <label>  
+Explain any other symptoms you might be experiencing which was not mentioned above
+<textarea></textarea>
+</label>
+</fieldset>
+
+<input type="submit" id="submit"/>
+  </form>
+  </section>
+  </div>
+  </div>
+</body>
+</html>

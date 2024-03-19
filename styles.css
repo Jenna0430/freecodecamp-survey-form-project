@@ -1,0 +1,76 @@
+html,body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_sKKIWAPhAV2o-8atEjZTDGryXIq3cUi5cQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Tahoma;
+   min-height: 100%;
+   font-size: 1.1rem;
+   margin: 0;
+ }
+ .cover{
+   width: 100%;
+    background: rgba(39,62,84,0.6);
+     overflow: hidden;
+     height: 100%;
+     z-index: 2;
+ }
+ .container{
+   border: 1px solid rgba(39,62,84,0.6);
+   border-radius: 20px;
+   margin: 20px auto;
+   width: 60%;
+   background-color: rgba(39,62,84,0.8);
+   padding: 20px;
+  
+ }
+ 
+ .header{
+   margin: 2px 20px;
+ }
+ h1{
+   text-align: center;
+ }
+ 
+ .main{
+  margin:1px 10px;
+}
+ 
+ #name-label, #email-label, #number-label{
+   display: block;
+   width: 90%;
+   border-radius: 5px;
+   
+ }
+ input{
+  padding:5px;
+  margin: 5px 0;
+ }
+ fieldset{
+  padding: 10px;
+  margin: 20px 0;
+ }
+
+ .diagnostic label{
+  display: block;
+ }
+ 
+ textarea{
+  min-width: 120px;
+  width: 80%;
+  padding: 0.6rem;
+  margin: 5px 0;
+  font-size: 1.1rem;
+ }
+ #submit{
+  padding: 10px;
+  border: 1px solid rgba(39,62,84,0.8);
+  border-radius: 10px;
+  color: rgba(39,62,84,0.8);
+  font-size: 1rem;
+ }
+ #submit:hover{
+  border: 2px solid white;
+  background-color: rgba(39,62,84,0.8);
+  color: white;
+ }
